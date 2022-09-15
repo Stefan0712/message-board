@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    <form method="POST" action="/new">
+        <input type="textarea" placeholder="Enter your message here..." name="messageText">
+        <input type="text" palceholder="Author name..." name="messageUser">
+        <button type="submit">Submit</button>
+    </form>
